@@ -12,7 +12,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  x = array[0]
+  x = 0
   array.length.times do |index|
     if array[index] > x 
       x = array[index]
@@ -23,8 +23,7 @@ end
 
 def find_min_value(array)
   # Add your solution here
-  # Add your solution here
-  x = array[0]
+  x = 0
   array.length.times do |index|
     if array[index] < x 
       x = array[index]
